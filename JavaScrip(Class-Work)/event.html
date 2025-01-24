@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="submit" value="click here" onclick="myfunc()"/>
+    <br>
+    <h1 style="color: red;" id="yash"></h1>
+    <script>
+        function myfunc()
+        {
+            var a=10;
+            var b=20;
+            var c=a+b;
+            document.getElementById('yash').innerHTML=c;
+        }
+    </script>
+<input type="submit" name="submit" value="onclick" onclick="myfun()"/>
+<input type="submit" name="submit" value="ondblclick" ondblclick="myfun()"/>
+<input type="submit" name="submit" value="onmouseover" onmouseover="myfun()"/>
+<input type="submit" name="submit" value="onmouseout" onmouseout="myfun()"/>
+
+<h1 id="yashuu"></h1>
+
+<script>
+    function myfun()
+    {
+        document.getElementById('yashuu').innerHTML="Hey my name is Yash Panchal";
+    }
+</script>
+
+<input type="text" id="demo" onkeypress="myfunct()"/>
+<script>
+    function myfunct()
+    {
+        document.getElementById('demo').style.color="red";
+        document.getElementById('demo').style.textTransform="uppercase";
+        document.getElementById('demo').style.backgroundColor="yellow";
+    }
+    document.write("<br>");
+    document.write("<br>");
+</script>
+
+<img src="vk8.jpeg" id="img" width="200px" height="200px" onmouseover="img1()" onmouseout="img2()"/>
+<script>
+    function img1()
+    {
+        document.getElementById('img').style.width="300px";
+        document.getElementById('img').style.height="300px";
+
+    }
+    function img2()
+    {
+        document.getElementById('img').style.width="200px";
+        document.getElementById('img').style.height="200px";
+
+    }
+</script>
+</body>
+</html>

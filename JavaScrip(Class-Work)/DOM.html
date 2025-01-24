@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="test1"></p>
+    <p id="test2"></p>
+    <input type="text" id="test3">
+    <script>
+        document.getElementById('test1').innerHTML="<h1>hello hii</h1>"
+        document.getElementById('test2').innerText="<h1>hello hii</h1>"
+        document.getElementById('test3').value="Yash Panchal"
+        document.getElementById('test3').style.backgroundColor='aqua';
+    </script>
+
+    <h1 id="test4">Hii im yash</h1>
+    <script>
+        var yash=document.getElementById('test4').innerText;
+        document.write(yash);
+    </script>
+
+<h1 id="test5">Hii im yash</h1>
+<script>
+    var yashp=document.getElementById('test5').innerHTML;
+    document.write(yashp);
+</script>
+
+<input type="date" id="test6">
+<script>
+    var yashu=document.getElementById('test6').value="Date";
+    document.write(yashu)
+</script>
+</body>
+</html>

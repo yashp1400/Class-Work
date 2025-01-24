@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="file1.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="test">My name is Yash</h1>
+   
+    <script>
+        document.getElementById("test").innerHTML="My name is Yash Panchal";
+        document.getElementById("test").style.color='red';
+        document.getElementById("test").style.backgroundColor='bisque';
+        document.getElementById("test").style.textAlign='center';
+
+        var myname="yash";
+        document.write(myname);   document.write("<br>");
+
+        var a,b,c;
+        a=10;
+        b=20;
+        c=a+b;
+        document.write("<br>" + "Sum of a and b are:" + c);
+        document.write("<br>");
+        document.write(`<br> Sum of a and b are: ${c}`);  
+         
+        document.write("<br>");
+        document.write("<br>");
+
+
+    if(a<b)
+    {
+        document.write("Pass");
+    }
+    else{
+        document.write("Fail");
+    }
+
+    document.write("<br>");
+    document.write("<br>");
+ 
+    
+     </script>
+
+<h3 id="number"></h3>
+<h3 id="string"></h3>
+<h3 id="arr"></h3>
+<h3 id="arr_index"></h3>
+<script>
+    var number=15;
+    document.getElementById('number').innerHTML=number;
+    document.getElementById("number").style.textAlign='center';
+
+    var name="Yash Panchal";
+    document.getElementById('string').innerHTML=name;
+    document.getElementById("string").style.textAlign='center';
+
+    var students=["yash","dev","shubham","ronak"];
+    document.getElementById('arr').innerHTML=students;
+    document.getElementById("arr").style.textAlign='center';
+
+    document.getElementById('arr_index').innerHTML=students[4];
+    document.getElementById("arr_index").style.textAlign='center';
+</script>
+
+<form>
+    <input type="button" value="AGE" onclick="msg()"/>
+</form>
+
+
+
+</body>
+</html>

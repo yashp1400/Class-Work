@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function myfunction()
+        {
+            var a=10;
+            var b=20;
+            var sum = a+b;
+            document.write(`sum a of b is: ${sum} <br>`);
+        }
+        myfunction();
+
+        function myfun(a,b)
+        {
+            var sum=a+b;
+            document.write(`sum of a and b is: ${sum} <br>`);
+        }
+        myfun(5,7);
+        myfun(2,6);
+        myfun(9,2358);
+
+        function myfun1(a=0,b=0)
+        {
+            var sum=a+b;
+            document.write(`sum a of b is : ${sum} <br>`);
+        }
+        myfun1(5,4);
+        myfun1(5);
+        myfun1();
+
+        function helloreturn(a,b)
+        {
+            var sum=a+b;
+            return sum;
+            // document.write(sum);
+        }
+        helloreturn(5,3);
+        //stote in database not show in browser
+    </script>
+    
+
+   
+</body>
+</html>

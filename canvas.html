@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas width="200" height="100" style="border: 1px solid #222;"></canvas>
+
+    <canvas id="myCanvas" width="200" height="100" style="border: 1px solid #222;"></canvas>
+    <script>
+        var c=document.getElementById('myCanvas');
+        var ctx=c.getContext("2d");
+
+        ctx.moveTo(0,0);
+        ctx.lineTo(200,100);
+        ctx.stroke();
+    </script>
+
+    <hr>
+
+    <canvas id="myCanvas1" width="100" height="100"></canvas>
+    <script>
+        var c=document.getElementById('myCanvas1');
+        var ctx=c.getContext("2d");
+
+        ctx.beginPath();
+        ctx.arc(50,50,50,0,2*Math.PI);
+        ctx.stroke();
+    </script>
+
+    <hr>
+
+    <canvas id="myCanvas2" width="500" height="300" style="border: 1px solid #222; background-color: blueviolet;"></canvas>
+    <script>
+        var c = document.getElementById("myCanvas2");
+        var ctx = c.getContext("2d");
+
+        ctx.font="60px Arial";
+        ctx.fillStyle = "blue";
+        ctx.fillText("Yash!",50,100); //fill text
+       
+        ctx.strokeStyle="black";
+        ctx.strokeText("Yash!",50,250);
+    </script>
+
+<hr>
+
+<canvas id="myCanvas3" width="300" height="200" style="border: 1px solid #222;"></canvas>
+<script>
+    var c=document.getElementById('myCanvas3');
+    var ctx=c.getContext("2d");
+
+    ctx.fillStyle="green";
+    ctx.fillRect(0,0,280,180);
+</script>
+    
+
+
+    
+</body>
+</html>

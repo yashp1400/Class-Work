@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .mystyle1{
+            color: pink;
+            background-color: blue;
+            width: 30%;
+        }
+        .mystyle2{
+            color: blue;
+            background-color: yellow;
+            text-decoration: underline;
+            text-transform: uppercase;
+            width: 30%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="change1()">Change CSS 1</button>
+    <h1 style="width: 30%; color: red; background-color: yellow;" id="style1">hi i am yash</h1>
+    <script>
+        function change1()
+        {
+           document.getElementById('style1').setAttribute('style','color:pink; background-color:blue; text-transform:uppercase; width:30%;');
+        }
+    </script>
+    <hr>
+    <button onclick="change2()">Change CSS 2</button>
+    <h1 class="mystyle1" id="style2">hi i am yash</h1>
+    <script>
+        function change2()
+        {
+           document.getElementById('style2').setAttribute('class','mystyle2');
+        }
+    </script>
+</body>
+</html>
