@@ -33,3 +33,16 @@ a{
 .box1{
     padding-top: 150px;
 }
+
+
+
+
+.arrival p{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.arrival{
+    background-color: black;
+    padding-bottom: 30px;
+}
