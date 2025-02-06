@@ -1,3 +1,11 @@
+
+@media screen and (max-width: 600px) {
+    .navbar a{
+        width: 100%;
+    }
+}
+
+
 .header h2::first-letter{
     font-size: 60px;
     color: black;
@@ -31,7 +39,7 @@ a{
 }
 
 .box1{
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 
@@ -42,7 +50,30 @@ a{
     font-weight: 400;
 }
 
-.arrival{
+
+
+.box2{
+    box-shadow: 1px 1px 1px 1px #222;
+}
+
+.icons i{
+    font-size: 35px;
+    color: antiquewhite;
+}
+
+.list1 a{
+    color: antiquewhite;
+}
+
+.footer{
     background-color: black;
-    padding-bottom: 30px;
+}
+
+.footer2{
+    background-color: black;
+}
+.header1 h2::first-letter{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
 }
