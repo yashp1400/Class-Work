@@ -7,7 +7,7 @@
 
 
 .header h2::first-letter{
-    font-size: 60px;
+    font-size: 50px;
     color: black;
     font-weight: 700;
 }
@@ -77,3 +77,4 @@ a{
     color: white;
     font-weight: 700;
 }
+
